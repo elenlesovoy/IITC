@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 248, 243); 
+}
+
+.nabar{
+display:flex;
+align-items: center;
+padding: 10px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+    margin-top: 1px;
+
+}
+
+.nabar a:hover{
+background-color: rgb(245, 201, 235);
+}
+
+
+nav ul {
+
+display: inline-block;
+list-style-type: none;
+background-color: rgb(255, 255, 255);
+overflow: hidden;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right:80px ;
+    margin-left: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(253, 132, 219);
+}
+
+p{
+    color:  rgb(197, 113, 176);
+}
+
+.container{
+ max-width:1300px;
+ background: (0,0,0,0.75);
+ text-align: center;
+ margin: auto;
+ padding-left: 0%;  
+ padding-right: 0%;
+ position: relative;
+ overflow: hidden;
+min-height: 100vh;
+padding: 0;
+
+}
+
+.backvideo{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%) ;
+   min-width: 100px;
+   min-height: 100px;
+   z-index: -1;
+   height: 2000px;
+}
+
+.products{ 
+  
+   margin-top: 2%;
+}
+
+.makeup{
+flex-basis: 25px;
+padding: 10px;
+min-width: 200px;
+margin-bottom: 50px;
+
+}
+.makeup img{
+    width: 10%;
+}
+
+
+
+.mascara{
+    flex-basis: 25px;
+padding: 10px;
+min-width: 200px;
+margin-bottom: 50px;
+
+}
+
+.mascara img{
+    width: 10%;
+}
+
+
+
+.eyeliner{
+    flex-basis: 25px;
+padding: 10px;
+min-width: 200px;
+margin-bottom: 10px;
+
+}
+
+.eyeliner img{
+    width: 20%;
+}
+
+.eyeshadowPalette{
+    flex-basis: 25px;
+padding: 10px;
+min-width: 200px;
+margin-bottom: 10px;
+
+}
+
+.eyeshadowPalette img{
+    width:1cqi;
+}
+
+
+.info{
+    display: flex;
+    align-items: center;
+}

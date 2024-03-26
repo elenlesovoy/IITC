@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: rgb(197, 113, 176);
+
+}
+
+.backvideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100px;
+    min-height: 100px;
+    z-index: -1;
+    height: 2000px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(246, 208, 236);
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(246, 241, 244);
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(197, 113, 176);
+}
+
+p {
+    color: rgb(197, 113, 176);
+}
+
+.small-container {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+
+}
+
+.products_container {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.allp {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+
+
+.makeup {
+
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(72, 66, 66, 0.113);
+    border-radius: 25px;
+    width: 23%;
+    align-content: center;
+    transition: 0.4s;
+
+
+}
+
+.makeup:hover {
+    transform: scale(115%);
+    transition: 0.4s;
+
+
+}
+
+.makeup img {
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: rgba(106, 56, 95, 0.849);
+    font-size: 50px;
+}
+
+.aboutus_container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus {
+    width: 100%;
+    padding: 50px;
+}
+
+
+.makeup>h4 {
+    background-color: rgb(249, 231, 244);
+    border-radius: 10px;
+
+
+}
+
+.makeup>p {
+    background-color: rgb(249, 231, 244);
+    border-radius: 10px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .makeup {
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .backvideo {
+        height: 3000px;
+    }
+
+
+    .allp {
+        flex-direction: column;
+        font-size: 80px;
+        width: 200px;
+
+    }
+
+    .contact h5 {
+        font-size: 10px;
+
+
+    }
+}
+
+
+.aboutus {
+    background-color: rgba(254, 252, 252, 0.753);
+}
+
+.aboutus h4 {
+    font-size: 40px;
+}
+
+
+.aboutus h5 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+
+}
